@@ -1,6 +1,12 @@
 
 # Snake for the micro:bit
 
+"""
+NOTE: this code doesn't work due to the limited memory of the micro:bit
+It could work if written in C.
+Micropython seems to interpret the code's text verbatim rather than using an intermediate bytecode.
+"""
+
 # GLOBAL CONFIG
 FPS = 2
 # COLORS are numbers 0-9
